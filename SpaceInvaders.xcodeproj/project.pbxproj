@@ -11,6 +11,9 @@
 		E81974982C86E9B800FB902A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81974972C86E9B800FB902A /* ContentView.swift */; };
 		E819749A2C86E9BA00FB902A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81974992C86E9BA00FB902A /* Assets.xcassets */; };
 		E819749D2C86E9BA00FB902A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E819749C2C86E9BA00FB902A /* Preview Assets.xcassets */; };
+		E81974A52C86EA3400FB902A /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81974A42C86EA3400FB902A /* Bullet.swift */; };
+		E81974A72C86EA8C00FB902A /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81974A62C86EA8C00FB902A /* Invader.swift */; };
+		E81974AA2C86EAD700FB902A /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81974A92C86EAD700FB902A /* GameOverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		E81974972C86E9B800FB902A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E81974992C86E9BA00FB902A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E819749C2C86E9BA00FB902A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E81974A42C86EA3400FB902A /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		E81974A62C86EA8C00FB902A /* Invader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		E81974A92C86EAD700FB902A /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 		E81974942C86E9B800FB902A /* SpaceInvaders */ = {
 			isa = PBXGroup;
 			children = (
+				E81974A82C86EAC600FB902A /* View */,
+				E81974A32C86EA2700FB902A /* Model */,
 				E81974952C86E9B800FB902A /* SpaceInvadersApp.swift */,
 				E81974972C86E9B800FB902A /* ContentView.swift */,
 				E81974992C86E9BA00FB902A /* Assets.xcassets */,
@@ -65,6 +73,23 @@
 				E819749C2C86E9BA00FB902A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E81974A32C86EA2700FB902A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E81974A42C86EA3400FB902A /* Bullet.swift */,
+				E81974A62C86EA8C00FB902A /* Invader.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E81974A82C86EAC600FB902A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E81974A92C86EAD700FB902A /* GameOverView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81974AA2C86EAD700FB902A /* GameOverView.swift in Sources */,
 				E81974982C86E9B800FB902A /* ContentView.swift in Sources */,
+				E81974A72C86EA8C00FB902A /* Invader.swift in Sources */,
 				E81974962C86E9B800FB902A /* SpaceInvadersApp.swift in Sources */,
+				E81974A52C86EA3400FB902A /* Bullet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
